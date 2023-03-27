@@ -5,7 +5,7 @@ layout = [[sg.T(k="txt")],
 win = sg.Window("こんにちはテスト", layout, size=(200,100))
 
 def execute():
-    win["txt"].update("こんにちは。")
+    win["txt"].update("こんにちは")
 
 while True:
     e, v = win.read()
